@@ -1,0 +1,27 @@
+=== structure ===
+cases: 32 | variables: 94
+string vars: []
+duplicate ID rows: 0
+
+=== normality: agreement items ===
+skew  range -2.19 .. 0.64   | outside +/-1: 11 of 54
+kurt  range -1.22 .. 7.17   | outside +/-1: 15 of 54
+markedly skewed items: ['B1', 'B4', 'B5', 'B7', 'C8', 'D8', 'D10', 'D11', 'F2', 'F3', 'F5']
+
+=== careless responding ===
+within-respondent SD across 54 items: min=0.45 max=1.61
+straightliners (SD < 0.30): 0
+
+=== reliability (reverse-scored items substituted) ===
+Scale                                     k   alpha    mean     SD
+B Relevance & understanding (B1-B10)     10   0.809    3.88   0.58
+C Resources (C1-C12)                     12   0.790    3.16   0.64
+D Process fidelity (D4-D13)              10   0.703    3.70   0.56
+E Challenges (E1_5-E10_5)                10   0.851    2.95   0.84
+F Outcomes (F1-F10)                      10   0.933    3.75   0.82
+G Equity & sustainability (G1-G7)         7   0.699    3.20   0.64
+
+=== alpha if item deleted: flags items that hurt a scale ===
+  B Relevance & understanding (B1-B10): alpha 0.809 -> improves by dropping [('B6_R', np.float64(0.86))]
+  D Process fidelity (D4-D13): alpha 0.703 -> improves by dropping [('D12_R', np.float64(0.801))]
+  G Equity & sustainability (G1-G7): alpha 0.699 -> improves by dropping [('G5_R', np.float64(0.755)), ('G6', np.float64(0.72))]
