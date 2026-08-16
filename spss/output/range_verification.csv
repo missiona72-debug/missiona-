@@ -1,0 +1,84 @@
+Group,Variable,Poss_Min,Poss_Max,Obs_Min,Obs_Max,N,Missing,Mean,SD,Floor_unused,Ceiling_unused
+Agreement Likert (1-5),B1,1.0,5.0,1.0,5.0,32,0,3.75,1.14,False,False
+Agreement Likert (1-5),B2,1.0,5.0,1.0,5.0,32,0,3.66,1.21,False,False
+Agreement Likert (1-5),B3,1.0,5.0,1.0,5.0,32,0,3.81,0.97,False,False
+Agreement Likert (1-5),B4,1.0,5.0,1.0,5.0,32,0,3.84,0.72,False,False
+Agreement Likert (1-5),B5,1.0,5.0,1.0,5.0,32,0,4.03,1.09,False,False
+Agreement Likert (1-5),B6,1.0,5.0,1.0,5.0,32,0,2.72,1.28,False,False
+Agreement Likert (1-5),B7,1.0,5.0,1.0,5.0,32,0,3.91,0.86,False,False
+Agreement Likert (1-5),B8,1.0,5.0,3.0,5.0,32,0,4.22,0.55,True,False
+Agreement Likert (1-5),B9,1.0,5.0,3.0,5.0,32,0,4.28,0.58,True,False
+Agreement Likert (1-5),B10,1.0,5.0,2.0,5.0,32,0,3.97,0.9,True,False
+Agreement Likert (1-5),C1,1.0,5.0,1.0,5.0,32,0,3.66,1.26,False,False
+Agreement Likert (1-5),C2,1.0,5.0,1.0,5.0,32,0,2.94,1.01,False,False
+Agreement Likert (1-5),C3,1.0,5.0,1.0,5.0,32,0,2.34,0.97,False,False
+Agreement Likert (1-5),C4,1.0,5.0,1.0,5.0,32,0,3.56,1.22,False,False
+Agreement Likert (1-5),C5,1.0,5.0,2.0,5.0,32,0,3.97,0.9,True,False
+Agreement Likert (1-5),C6,1.0,5.0,1.0,5.0,32,0,2.62,1.21,False,False
+Agreement Likert (1-5),C7,1.0,5.0,1.0,5.0,32,0,3.78,1.16,False,False
+Agreement Likert (1-5),C8,1.0,5.0,1.0,5.0,32,0,4.0,1.05,False,False
+Agreement Likert (1-5),C9,1.0,5.0,1.0,5.0,32,0,3.0,1.27,False,False
+Agreement Likert (1-5),C10,1.0,5.0,1.0,5.0,32,0,2.97,1.36,False,False
+Agreement Likert (1-5),C11,1.0,5.0,1.0,5.0,32,0,2.94,1.16,False,False
+Agreement Likert (1-5),C12,1.0,5.0,1.0,5.0,32,0,3.25,1.22,False,False
+Agreement Likert (1-5),D4,1.0,5.0,2.0,5.0,32,0,4.0,0.98,True,False
+Agreement Likert (1-5),D5,1.0,5.0,1.0,5.0,32,0,3.78,1.1,False,False
+Agreement Likert (1-5),D6,1.0,5.0,2.0,5.0,32,0,3.75,0.95,True,False
+Agreement Likert (1-5),D7,1.0,5.0,1.0,5.0,32,0,3.88,1.01,False,False
+Agreement Likert (1-5),D8,1.0,5.0,1.0,5.0,32,0,3.88,0.98,False,False
+Agreement Likert (1-5),D9,1.0,5.0,1.0,5.0,32,0,3.47,1.08,False,False
+Agreement Likert (1-5),D10,1.0,5.0,1.0,5.0,32,0,4.47,0.92,False,False
+Agreement Likert (1-5),D11,1.0,5.0,1.0,5.0,32,0,4.06,1.13,False,False
+Agreement Likert (1-5),D12,1.0,5.0,1.0,5.0,32,0,3.09,1.33,False,False
+Agreement Likert (1-5),D13,1.0,5.0,1.0,5.0,32,0,2.78,1.21,False,False
+Agreement Likert (1-5),F1,1.0,5.0,1.0,5.0,32,0,3.66,1.15,False,False
+Agreement Likert (1-5),F2,1.0,5.0,1.0,5.0,32,0,3.72,1.08,False,False
+Agreement Likert (1-5),F3,1.0,5.0,1.0,5.0,32,0,4.0,0.95,False,False
+Agreement Likert (1-5),F4,1.0,5.0,1.0,5.0,32,0,3.69,1.0,False,False
+Agreement Likert (1-5),F5,1.0,5.0,1.0,5.0,32,0,3.78,1.1,False,False
+Agreement Likert (1-5),F6,1.0,5.0,1.0,5.0,32,0,3.53,0.98,False,False
+Agreement Likert (1-5),F7,1.0,5.0,2.0,5.0,32,0,4.0,0.8,True,False
+Agreement Likert (1-5),F8,1.0,5.0,1.0,5.0,32,0,3.75,1.02,False,False
+Agreement Likert (1-5),F9,1.0,5.0,2.0,5.0,32,0,3.84,0.92,True,False
+Agreement Likert (1-5),F10,1.0,5.0,1.0,5.0,32,0,2.5,1.24,False,False
+Agreement Likert (1-5),G1,1.0,5.0,1.0,5.0,32,0,2.47,1.19,False,False
+Agreement Likert (1-5),G2,1.0,5.0,1.0,5.0,32,0,3.22,1.29,False,False
+Agreement Likert (1-5),G3,1.0,5.0,2.0,5.0,32,0,3.97,0.82,True,False
+Agreement Likert (1-5),G4,1.0,5.0,2.0,5.0,32,0,3.84,0.85,True,False
+Agreement Likert (1-5),G5,1.0,5.0,1.0,5.0,32,0,3.22,1.16,False,False
+Agreement Likert (1-5),G6,1.0,5.0,1.0,5.0,32,0,2.75,1.27,False,False
+Agreement Likert (1-5),G7,1.0,5.0,2.0,5.0,32,0,3.34,0.83,True,False
+Agreement Likert (1-5),B6_R,1.0,5.0,1.0,5.0,32,0,3.28,1.28,False,False
+Agreement Likert (1-5),C4_R,1.0,5.0,1.0,5.0,32,0,2.44,1.22,False,False
+Agreement Likert (1-5),D12_R,1.0,5.0,1.0,5.0,32,0,2.91,1.33,False,False
+Agreement Likert (1-5),F10_R,1.0,5.0,1.0,5.0,32,0,3.5,1.24,False,False
+Agreement Likert (1-5),G5_R,1.0,5.0,1.0,5.0,32,0,2.78,1.16,False,False
+Severity - ORIGINAL 0-4,E1,0.0,4.0,0.0,3.0,32,0,1.47,1.11,False,True
+Severity - ORIGINAL 0-4,E2,0.0,4.0,0.0,4.0,32,0,2.19,1.47,False,False
+Severity - ORIGINAL 0-4,E3,0.0,4.0,0.0,4.0,32,0,0.94,1.22,False,False
+Severity - ORIGINAL 0-4,E4,0.0,4.0,0.0,4.0,32,0,1.22,1.24,False,False
+Severity - ORIGINAL 0-4,E5,0.0,4.0,0.0,4.0,32,0,2.81,1.18,False,False
+Severity - ORIGINAL 0-4,E6,0.0,4.0,0.0,4.0,32,0,1.81,1.33,False,False
+Severity - ORIGINAL 0-4,E7,0.0,4.0,0.0,4.0,32,0,2.25,1.41,False,False
+Severity - ORIGINAL 0-4,E8,0.0,4.0,0.0,4.0,32,0,2.62,1.16,False,False
+Severity - ORIGINAL 0-4,E9,0.0,4.0,0.0,4.0,32,0,2.56,1.34,False,False
+Severity - ORIGINAL 0-4,E10,0.0,4.0,0.0,4.0,32,0,1.66,1.31,False,False
+Severity - RECODED 1-5,E1_5,1.0,5.0,1.0,4.0,32,0,2.47,1.11,False,True
+Severity - RECODED 1-5,E2_5,1.0,5.0,1.0,5.0,32,0,3.19,1.47,False,False
+Severity - RECODED 1-5,E3_5,1.0,5.0,1.0,5.0,32,0,1.94,1.22,False,False
+Severity - RECODED 1-5,E4_5,1.0,5.0,1.0,5.0,32,0,2.22,1.24,False,False
+Severity - RECODED 1-5,E5_5,1.0,5.0,1.0,5.0,32,0,3.81,1.18,False,False
+Severity - RECODED 1-5,E6_5,1.0,5.0,1.0,5.0,32,0,2.81,1.33,False,False
+Severity - RECODED 1-5,E7_5,1.0,5.0,1.0,5.0,32,0,3.25,1.41,False,False
+Severity - RECODED 1-5,E8_5,1.0,5.0,1.0,5.0,32,0,3.62,1.16,False,False
+Severity - RECODED 1-5,E9_5,1.0,5.0,1.0,5.0,32,0,3.56,1.34,False,False
+Severity - RECODED 1-5,E10_5,1.0,5.0,1.0,5.0,32,0,2.66,1.31,False,False
+Ordinal count/frequency bands,A8,0.0,4.0,0.0,4.0,32,0,2.5,1.24,False,False
+Ordinal count/frequency bands,D1,0.0,4.0,0.0,4.0,32,0,3.62,0.94,False,False
+Ordinal count/frequency bands,D3,0.0,4.0,0.0,4.0,32,0,2.84,1.44,False,False
+Dichotomous,A9,0.0,1.0,0.0,1.0,32,0,0.78,0.42,False,False
+Other ordinal,A4,1.0,5.0,1.0,5.0,32,0,2.34,1.43,False,False
+Other ordinal,A5,1.0,3.0,1.0,3.0,32,0,2.0,0.57,False,False
+Other ordinal,A6,1.0,6.0,1.0,6.0,32,0,3.03,1.23,False,False
+Other ordinal,A7,1.0,4.0,1.0,4.0,32,0,3.03,0.78,False,False
+Other ordinal,D2,1.0,4.0,1.0,4.0,32,0,2.47,0.84,False,False
