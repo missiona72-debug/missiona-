@@ -85,12 +85,21 @@ props panel). Defaults are taken from what is legible on the slides themselves.
 ## Rendering
 
 ```bash
-npm run dev      # Remotion Studio
-npm run render   # out/kendalls-tau.mp4, h264 CRF 16, PNG intermediates
+npm run dev            # Remotion Studio
+npm run render         # out/kendalls-tau.mp4 - h264 CRF 16, PNG intermediates
+npm run render:share   # out/kendalls-tau-share.mp4 - same picture, ~10 MB
 ```
 
 `npm run render` uses PNG intermediate frames rather than the project default of
-JPEG, so the only lossy step is the final H.264 encode.
+JPEG, so the only lossy step is the final H.264 encode. That master lands around
+40 MB (8.5 Mbit/s), which is past WhatsApp's 16 MB ceiling, so `render:share`
+re-encodes the video at CRF 24 and gets to about 10 MB. It copies the audio
+track rather than re-encoding it — a second AAC pass costs quality for a
+saving of roughly one megabyte.
+
+On a 4-core machine the full render takes 30-45 minutes; `--concurrency=4`
+is worth passing, since Remotion otherwise picks 2 and leaves the box
+half idle.
 
 If the machine cannot reach Remotion's Chrome Headless Shell download, point
 `REMOTION_BROWSER` at an existing headless Chromium before rendering:
