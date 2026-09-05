@@ -160,7 +160,12 @@ export const MainBeat: React.FC<{
     <AbsoluteFill>
       <Shot
         trimBefore={0}
-        kenBurns={{ zoom: [1.02, 1.09], pan: [-6, -3] }}
+        // The card is exactly as wide as the source, so any zoom above 1
+        // crops the sides - and the slide lives hard against the right edge.
+        // The push is kept to 1.05 and biased left by 25px, which spends the
+        // whole crop on the wall at the left and keeps the slide intact. Any
+        // more pan than 1080*(z-1)/2/z would drag empty space into frame.
+        kenBurns={{ zoom: [1.0, 1.05], pan: [-25, -5] }}
         volume={volume}
       />
       <Scrim />

@@ -33,10 +33,18 @@ Three scenes in a `TransitionSeries` (`src/talk/Talk.tsx`):
 
 1. **Cold open** (3.5s) — a moment from the middle of the talk at 0.35x, muted,
    punched in to 1.34x and pulling back to 1.2x, under the title lockup.
-2. **The talk** (32.85s) — the full source with its own audio, opening at 1.02x
-   and pushing to 1.09x, with two lower thirds marking the slides that come up.
+2. **The talk** (32.85s) — the full source with its own audio, opening at 1.0x
+   and pushing to 1.05x, with two lower thirds marking the slides that come up.
 3. **Outro** (3s) — the closing seconds at 0.45x, blurring and dimming out under
    the closing card.
+
+The push in the middle scene is deliberately small. The card is exactly as
+wide as the source, so any zoom above 1.0 crops the sides, and the projected
+slide sits hard against the right edge of the shot — a first pass at 1.09x cut
+the tau-b formula box off for most of the talk. The push is now capped at 1.05x
+and biased 25px to the left, which spends the entire crop on the wall at the
+left and leaves the slide whole. The pan cannot exceed `1080 * (z - 1) / 2 / z`
+at any point or empty space drags into frame.
 
 Transitions are cross-dissolves, deliberately. Both scenes are the same room
 from the same camera position, so a push or a wipe puts a moving edge between
